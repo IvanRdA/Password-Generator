@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Password Generator by IvanR</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/2b739b3cb6.css" crossorigin="anonymous">
+</head>
+<body>
+    <div id="box">
+        <h1>JS Password Generator</h1>
+        <input type="range" id="chars" min="1" max="11" value="6" step="1" /> <output id="range-value"></output>
+        <br />
+        <label for="spec-chars">Allow special characters</label>
+        <input type="checkbox" id="spec-chars"/>
+        <div id="password"><h5>Click button to generate password</h5><i class="fa-regular fa-clipboard" id="icon"></i></div>
+        <input type="submit" value="GENERATE" id="generate-btn" />
+    </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/2b739b3cb6.js" crossorigin="anonymous"></script>
+</body>
+</html>
